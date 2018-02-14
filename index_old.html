@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Die realique GmbH mit Sitz in Hannover ist ein bundesweit tätiges
+        Immobilien-Unternehmen mit dem Schwerpunkt Projektentwicklung, Bau, Sanierung,
+        Optimierung sowie Vertrieb von Kapitalanlage-Immobilien.
+    </title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <!-- Bootstrap + Custom Stylez -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <link href="css/animate.css" rel="stylesheet" media="all">
+    <link href="css/webfonts.css" rel="stylesheet" media="all">
+    <link href="slick-1.8.0/slick/slick.css" rel="stylesheet" media="all">
+    <link href="slick-1.8.0/slick/slick-theme.css" rel="stylesheet" media="all">
+    <link href="css/realique.css" rel="stylesheet">
+    <link href="css/mq.css" rel="stylesheet">
+
+</head>
+
+<div id="loginModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="far fa-times-circle"></i> </span></button>
+            <div class="modal-body">
+                <div class="modal_header_holder text-center">
+                    <h3>Partner Login</h3>
+                </div>
+                <form id="modalLoginForm" class="realique_modal_form" role="form">
+                    <div class="form-group realique_form_group_modal">
+                        <label class="login_modal_lbl" for="emailOrUsername">Email / Username</label>
+                        <input type="text" class="form-control realique_input" id="emailOrUsername">
+                    </div>
+                    <div class="form-group realique_form_group_modal">
+                        <label class="login_modal_lbl" for="pswd">Passwort</label>
+                        <input type="password" class="form-control realique_input" id="pswd">
+                    </div>
+                    <div class="form-group realique_form_group_modal center-block text-center">
+                        <button type="submit" id="submitRealiqueModalForm" class="btn realique_login_btn">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> <!-- loginModal END -->
+
+<body>
+<div id="main">
+
+    <nav class="navbar navbar-default realique_navbar">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#realique_nav_collapse_1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand animated bounceInLeft" href="#">
+                    <img src="img/Logo_header.png" class="header_logo">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="realique_nav_collapse_1">
+                <ul class="nav navbar-nav navbar-right realique_navlinx animated bounceInRight">
+                    <li class="active"><a href="#" class="anchor">Home</a></li>
+                    <li><a href="#unternehmen" class="anchor">Unternehmen</a></li>
+                    <li><a href="#projekte" class="anchor">Projekte</a></li>
+                    <li><a href="#referenzen" class="anchor">Referenzen</a></li>
+                    <li><a href="#kontakt" class="anchor">Kontakt</a></li>
+                    <li><a href="javascript:void(0)" class="navbar_login_link" data-toggle="modal" data-target="#loginModal">Login</a></li>
+                </ul>
+            </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container-fluid -->
+    </nav>
+
+    <header class="realique_header">
+        <div class="container">
+            <div class="row">
+                <div class="realique_tagline center-block animated fadeIn"></div>
+                <div class="godown_button_holder">
+                    <a href="#unternehmen" class="anchor godown"></a>
+                </div>
+            </div>
+        </div>
+    </header> <!-- Header END -->
+
+    <div class="unternehmen_area">
+        <div class="container">
+            <div class="row">
+                <div id="unternehmen" class="col-sm-4 unternehmen_image_holder text-center">
+                    <div class="unternemhmen_circle"></div>
+                </div>
+                <div class="col-sm-8 unternehmen_info_holder">
+                    <h2 class="realique_ttl center-block">Unternehmen</h2>
+                    <div class="unternehmen_info_inner_box">
+                        <p class="unternehmen_info">
+                            Die realique Unternehmensgruppe ist ein bundesweit tätiges Immobilien- Unternehmen mit den
+                            Schwerpunkten Projektentwicklung und Re- Development von Wohn- und Gewerbeimmobilien mit
+                            Sitz in Hannover.
+                        </p>
+                        <p class="unternehmen_info">
+                            Mit Branchen- Knowhow, Marktkompetenz und Leidenschaft entwickeln wir Immobilien, die unseren
+                            Kunden maximalen und nachhaltigen Erfolg garantieren. Für institutionelle Investoren und
+                            private Kapitalanleger realisieren wir mit einer Vielzahl eigenständiger Projektgesellschaften
+                            architektonisch und wirtschaftlich attraktive Wohn- und Gewerbeimmobilien in Top- Lagen.
+                            Unser regionaler Focus liegt dabei auf Norddeutschland, insbesondere den Metropolregionen
+                            Hannover und Hamburg, sowie Berlin.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Unternehmen Area END -->
+
+    <div class="projekte_area">
+        <div class="container">
+            <div id="projekte" class="row">
+                <div class="text-center">
+                    <h2 class="realique_ttl center-block">Projekte</h2>
+                </div>
+                <div class="center-block projekte_slider_holder">
+                    <div class="pj_main_slider">
+                        <div class="main_slide">
+                            <div class="main_thumb" style="background: url('img/slide_01.jpg') center center no-repeat ; background-size: cover;"></div>
+                            <div class="textual_data_holder">
+                                <h4 class="slide_ttl">Jute Quartier</h4>
+                                <div class="items_boxes_holder">
+                                    <section class="items_box">
+                                        <p><span class="slide_item location"></span>Braunschweig</p>
+                                    </section>
+                                    <section class="items_box">
+                                        <p><span class="slide_item neubau"></span>Neubau</p>
+                                    </section>
+                                    <section class="items_box">
+                                        <p><span class="slide_item immobilientyp"></span>Wohnimmobilie</p>
+                                    </section>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="hauptinfo_holder">
+                                    <p class="slide_hauptinfo">
+                                        In ruhiger Lage, nur einige Schritte von der Oker und wenige Minuten von der
+                                        Innenstadt entfernt, entsteht auf dem ehemaligen Spinnereigelände das jute- Quartier.
+                                        Die 53 Wohnungen überzeugen durch offene Grundrisse, hochwertige Ausstattung
+                                        und moderne Architektur. Alle Wohnungen sind zur Oker ausgerichtet und bieten
+                                        mit Wohnungsgrößen von 48 bis 140 m2 sowohl Singles als auch Familien viel Raum
+                                        für Ideen. Großzügige Terrassen und Balkone laden zum Verweilen ein und ein
+                                        großer Garten in unmittelbarer Okernähe sowie ein gewachsener Baumbestand runden
+                                        das Bild eines innerstädtischen Zuhauses im Grünen ab.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main_slide">
+                            <div class="main_thumb" style="background: url('img/slide_02.jpg') center center no-repeat ; background-size: cover;"></div>
+                            <div class="textual_data_holder">
+                                <h4 class="slide_ttl">Adapt am Pferdeturm</h4>
+                                <div class="items_boxes_holder">
+                                    <section class="items_box">
+                                        <p><span class="slide_item location"></span>Hannover</p>
+                                    </section>
+                                    <section class="items_box">
+                                        <p><span class="slide_item neubau"></span>Neubau</p>
+                                    </section>
+                                    <section class="items_box">
+                                        <p><span class="slide_item immobilientyp"></span>Wohnimmobilie</p>
+                                    </section>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="hauptinfo_holder">
+                                    <p class="slide_hauptinfo">
+                                        Am Pferdeturm, dem östlichen Tor zur Innenstadt und in unmittelbarer Nähe zum
+                                        größten Messegelände der Welt, realisieren wir ADAPT AM PFERDETURM. Getreu dem
+                                        Motto „Erste Wahl beim zweiten Zuhause“ laden die 200 Hotel-/Serviced- Apartments
+                                        mit Größen ab 35 m² sowohl lang- und kurzzeitreisende Geschäftsleute als auch
+                                        Privatreisende zum Wohlfühlen ein.
+                                        Neben dem eigenen Balkon, großen Dachterrassen und einem Atriumgarten im Innenhof
+                                        überzeugt Adapt seine Gäste mit räumlicher Großzügigkeit, modernen Ausstattungsvarianten
+                                        und neuester IT- Infrastruktur. Eine voll ausgestatte Küche in jedem Apartment
+                                        ermöglicht dem Gast darüber hinaus einen höchst individuellen Aufenthalt, von
+                                        der Selbstversorgung bis zur Nutzung der klassischen Hoteldienstleistungen.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main_slide">
+                            <div class="main_thumb" style="background: url('img/slide_03.jpg') center center no-repeat ; background-size: cover;"></div>
+                            <div class="textual_data_holder">
+                                <h4 class="slide_ttl">Adapt am Juteportal</h4>
+                                <div class="items_boxes_holder">
+                                    <section class="items_box">
+                                        <p><span class="slide_item location"></span>Braunschweig</p>
+                                    </section>
+                                    <section class="items_box">
+                                        <p><span class="slide_item neubau"></span>Neubau & Denkmalsanierung</p>
+                                    </section>
+                                    <section class="items_box">
+                                        <p><span class="slide_item immobilientyp"></span>Gewerbeimmobilie</p>
+                                    </section>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="hauptinfo_holder">
+                                    <p class="slide_hauptinfo">
+                                        Unter Einbeziehung des denkmalgeschützten Juteportals, direkt an der Oker gelegen
+                                        und an die Innenstadt angrenzend, verwirklichen wir ADAPT in Braunschweig.
+                                        160 Hotel-/Serviced Apartments bieten in ruhiger aber dennoch zentraler Lage
+                                        Wohlfühlambiente für Privat- und Geschäftsreisende. Die „Erste Wahl beim zweiten
+                                        Zuhause“ versprechen Apartments mit Größen ab 35 m2 mit eigener Terrasse, Balkon
+                                        oder Dachterrasse. Jedes Apartment verfügt über eine voll ausgestattete Küche sowie
+                                        neueste IT- Infrastruktur. Gemeinschaftsbereiche wie die Relax- Lounge, Kaffeebar,
+                                        Chill- out- Garten und Rooftop- Bar runden das Angebot ab und laden zum Entspannen ein.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main_slide">
+                            <div class="main_thumb" style="background: url('img/slide_04.jpg') center center no-repeat ; background-size: cover;"></div>
+                            <div class="textual_data_holder">
+                                <h4 class="slide_ttl">Wakenitz-Terrassen</h4>
+                                <div class="items_boxes_holder">
+                                    <section class="items_box">
+                                        <p><span class="slide_item location"></span>Lübeck</p>
+                                    </section>
+                                    <section class="items_box">
+                                        <p><span class="slide_item neubau"></span>Neubau</p>
+                                    </section>
+                                    <section class="items_box">
+                                        <p><span class="slide_item immobilientyp"></span>Wohnimmobilie</p>
+                                    </section>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="hauptinfo_holder">
+                                    <p class="slide_hauptinfo">
+                                        In unmittelbarer Nähe zur Wakenitz besticht der Neubau durch seine ruhige aber
+                                        dennoch zentrumsnahe Lage. Die 27 Wohneinheiten bieten sowohl Kapitalanlegern als
+                                        auch Eigennutzern beste Voraussetzungen für eine nachhaltige Investition.
+                                        Jede der modern geschnittenen Wohnungen verfügt über nicht einsehbare Terrassen
+                                        oder Balkone mit Ausrichtung auf das südöstlich gelegene Naherholungsgebiet.
+                                        Dies garantiert absolute Privatsphäre und bietet hohen Wohnkomfort in einem
+                                        naturnahen Umfeld.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main_slide">
+                            <div class="main_thumb" style="background: url('img/slide_05.jpg') center center no-repeat ; background-size: cover;"></div>
+                            <div class="textual_data_holder">
+                                <h4 class="slide_ttl">Langhans-Gärten</h4>
+                                <div class="items_boxes_holder">
+                                    <section class="items_box">
+                                        <p><span class="slide_item location"></span>Berlin Weißensee</p>
+                                    </section>
+                                    <section class="items_box">
+                                        <p><span class="slide_item neubau"></span>Neubau</p>
+                                    </section>
+                                    <section class="items_box">
+                                        <p><span class="slide_item immobilientyp"></span>Wohnimmobilie</p>
+                                    </section>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="hauptinfo_holder">
+                                    <p class="slide_hauptinfo">
+                                        Im Berliner Stadtteil Weißensee entsteht im Kiez „Weißenseer Spitze“ auf einem
+                                        nach Süden ausgerichteten Grundstück das Stadtquartier Langhans- Gärten mit
+                                        insgesamt 59 Wohneinheiten sowie Tiefgarage. Die vier Mehrfamilien- und drei
+                                        Stadthäuser verfügen über eine hochwertige Ausstattung und bestechen durch
+                                        moderne Grundrisse.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main_slide">
+                            <div class="main_thumb" style="background: url('img/slide_06.jpg') center center no-repeat ; background-size: cover;"></div>
+                            <div class="textual_data_holder">
+                                <h4 class="slide_ttl">Adapt Apartments</h4>
+                                <div class="items_boxes_holder">
+                                    <section class="items_box">
+                                        <p><span class="slide_item location"></span>Berlin Adlershof</p>
+                                    </section>
+                                    <section class="items_box">
+                                        <p><span class="slide_item neubau"></span>Neubau</p>
+                                    </section>
+                                    <section class="items_box">
+                                        <p><span class="slide_item immobilientyp"></span>Wohnimmobilie</p>
+                                    </section>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="hauptinfo_holder">
+                                    <p class="slide_hauptinfo">
+                                        Mit ADAPT APARTMENTS haben Sie deutschlandweit erstmalig die Möglichkeit,
+                                        in ein Boardinghouse als geteiltes Wohneigentum zu investieren. Die sechs
+                                        hochwertigen Neubauten befinden sich im Süd-Osten von Berlin, im Wissenschafts- und
+                                        Technologiepark der Superlative, Adlershof. DAS Silicon Valley Deutschlands.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- Main Slider END -->
+
+                    <div class="slider-mini">
+                        <div class="mini_thumb" style="background: url('img/slide_01.jpg') center center no-repeat ; background-size: cover;"></div>
+                        <div class="mini_thumb" style="background: url('img/slide_02.jpg') center center no-repeat ; background-size: cover;"></div>
+                        <div class="mini_thumb" style="background: url('img/slide_03.jpg') center center no-repeat ; background-size: cover;"></div>
+                        <div class="mini_thumb" style="background: url('img/slide_04.jpg') center center no-repeat ; background-size: cover;"></div>
+                        <div class="mini_thumb" style="background: url('img/slide_05.jpg') center center no-repeat ; background-size: cover;"></div>
+                        <div class="mini_thumb" style="background: url('img/slide_06.jpg') center center no-repeat ; background-size: cover;"></div>
+                    </div> <!-- Mini Slider END -->
+
+                </div>
+
+            </div>
+        </div>
+    </div> <!-- Projects Area END -->
+
+    <div class="references_area">
+        <div class="container">
+            <div id="referenzen" class="row">
+                <div class="text-center">
+                    <h2 class="realique_ttl center-block">Referenzen</h2>
+                </div>
+
+                <div class="reference_boxes_holder">
+
+                    <div class="col-md-3 col-sm-6 col-xs-6 ref_box_outer">
+                        <div class="reference_box">
+                            <div class="ref_pic" style="background: url('img/ref_001.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="ref_inner_info_box">
+                                <h3 class="ref_ttl">Langhans-Gärten</h3>
+                                <div class="items_boxes_holder_ref">
+                                    <section class="items_box_ref">
+                                        <p><span class="slide_item_ref location"></span>Berlin Weißensee</p>
+                                    </section>
+                                    <section class="items_box_ref">
+                                        <p><span class="slide_item_ref immobilientyp"></span>Wohnimmobilie</p>
+                                    </section>
+                                    <section class="items_box_ref">
+                                        <p><span class="slide_item_ref neubau"></span>Neubau</p>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-6 ref_box_outer">
+                        <div class="reference_box">
+                            <div class="ref_pic" style="background: url('img/ref_002.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="ref_inner_info_box">
+                                <h3 class="ref_ttl">Adapt Apartments</h3>
+                                <div class="items_boxes_holder_ref">
+                                    <section class="items_box_ref">
+                                        <p><span class="slide_item_ref location"></span>Berlin Adlershof</p>
+                                    </section>
+                                    <section class="items_box_ref">
+                                        <p><span class="slide_item_ref immobilientyp"></span>Wohnimmobilie</p>
+                                    </section>
+                                    <section class="items_box_ref">
+                                        <p><span class="slide_item_ref neubau"></span>Neubau</p>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-6 ref_box_outer">
+                        <div class="reference_box">
+                            <div class="ref_pic" style="background: url('img/ref_003.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="ref_inner_info_box">
+                                <h3 class="ref_ttl">Atrium Quartier</h3>
+                                <div class="items_boxes_holder_ref">
+                                    <section class="items_box_ref">
+                                        <p><span class="slide_item_ref location"></span>Hannover Nord</p>
+                                    </section>
+                                    <section class="items_box_ref">
+                                        <p><span class="slide_item_ref immobilientyp"></span>Wohnimmobilie</p>
+                                    </section>
+                                    <section class="items_box_ref">
+                                        <p><span class="slide_item_ref neubau"></span>Vollsanierung</p>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-6 ref_box_outer">
+                        <div class="reference_box">
+                            <div class="ref_pic" style="background: url('img/ref_004.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="ref_inner_info_box">
+                                <h3 class="ref_ttl">Seniorenresidenz Werrehof</h3>
+                                <div class="items_boxes_holder_ref">
+                                    <section class="items_box_ref">
+                                        <p><span class="slide_item_ref location"></span>Lage in NRW</p>
+                                    </section>
+                                    <section class="items_box_ref">
+                                        <p><span class="slide_item_ref immobilientyp"></span>Wohnimmobilie</p>
+                                    </section>
+                                    <section class="items_box_ref">
+                                        <p><span class="slide_item_ref neubau"></span>Denkmalsanierung & Neubau</p>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="all_references_cta_holder text-center">
+                    <button class="btn all_references_btn">Alle Referenzen</button>
+                </div>
+            </div>
+        </div>
+    </div> <!-- References Area END -->
+
+    <div class="kontakt_area">
+        <div class="container">
+            <div id="kontakt" class="row">
+                <div class="text-center">
+                    <h2 class="realique_ttl center-block">Kontakt</h2>
+                </div>
+                <div class="col-sm-6 kontakt_form_holder">
+                    <form id="realiqueKontakt" class="realique_contact_form" role="form">
+                        <div class="form-group realique_form_group">
+                            <label for="rName"></label>
+                            <input type="text" class="form-control realique_input" id="rName" placeholder="Name" onfocus="placeholder='' " onblur="placeholder='Name' ">
+                        </div>
+                        <div class="form-group realique_form_group">
+                            <label for="rEmail"></label>
+                            <input type="text" class="form-control realique_input" id="rEmail" placeholder="Email" onfocus="placeholder='' " onblur="placeholder='Email' ">
+                        </div>
+                        <div class="form-group realique_form_group">
+                            <label for="rSubject"></label>
+                            <input type="text" class="form-control realique_input" id="rSubject" placeholder="Betreff" onfocus="placeholder='' " onblur="placeholder='Betreff' ">
+                        </div>
+                        <div class="form-group realique_form_group">
+                            <label for="rTextbox"></label>
+                            <textarea class="form-control realique_txtbox" id="rTextbox" placeholder="Ihre Nachricht" onfocus="placeholder='' " onblur="placeholder='Ihre Nachricht' "></textarea>
+                        </div>
+                        <div class="form-group realique_form_group">
+                            <button type="submit" id="submitRealiquForm" class="btn realique_submit_btn">Versenden</button>
+                        </div>
+                    </form>
+                </div> <!-- Form Holder END -->
+
+                <div class="col-sm-6 nils_greeting_holder">
+                    <div class="text-center">
+                        <h4 class="nils_greeting">Ich freue mich auf Ihre Nachricht!</h4>
+                    </div>
+                    <div class="text-center nils_circle_holder">
+                        <div class="nils_circle"></div>
+                        <h5 class="nils_name">Nils Schmidt</h5>
+                        <h5 class="nils_position">Geschäftsführer realique Unternehmensgruppe</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> <!-- Kontakt Area END -->
+
+    <footer class="realique_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-xs-4 footer_logo_and_data_holder">
+                    <img src="img/Logo_footer.png" class="logo_footer">
+                    <div class="items_box_footer">
+                        <p><span class="footer_item phone"></span>0511-897 11 880</p>
+                    </div>
+                    <div class="items_box_footer">
+                        <p><span class="footer_item email"></span>info@realique.com</p>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-xs-3 footer_linxx_holder">
+                    <ul class="footer_linxx">
+                        <li><a class="anchor" href="#">Home</a></li>
+                        <li><a class="anchor" href="#unternehmen">Unternehmen</a></li>
+                        <li><a class="anchor" href="#projekte">Projekte</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 col-xs-3 footer_linxx_holder">
+                    <ul class="footer_linxx">
+                        <li><a class="anchor" href="#referenzen">Referenzen</a></li>
+                        <li><a class="anchor" href="#kontakt">Kontakt</a></li>
+                        <li><a href="#">Impressum</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-1 col-xs-2 footer_partner_login_holder pull-right">
+                    <a class="btn footer_partner_login" data-toggle="modal" data-target="#loginModal">Partner Login</a>
+                </div>
+                <div class="bottonmost_stripe">
+                    <div class="container">
+                        <div class="col-sm-6 small_footernotes_holder">
+                            <small>&copy; 2018 Realique Unternehmensgruppe | All Rights Reserved</small>
+                        </div>
+                        <div class="col-sm-6 social_links_holder pull-right">
+                            <ul class="socialz">
+                                <li><a href="javascript:void(0)"><i class="fab fa-xing-square"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fab fa-twitter-square"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div> <!-- #Main END-->
+
+<!-- jQuery'z -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- JSz -->
+<script type="text/javascript" src="slick-1.8.0/slick/slick.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/realique.js"></script>
+
+</body>
+
+</html>

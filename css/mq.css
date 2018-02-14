@@ -1,0 +1,392 @@
+/*
+
+▒█▀▀█ █▀▀ █▀▀█ █░░ ░▀░ █▀▀█ █░░█ █▀▀ 　 ▒█▀▄▀█ ▒█▀▀█
+▒█▄▄▀ █▀▀ █▄▄█ █░░ ▀█▀ █░░█ █░░█ █▀▀ 　 ▒█▒█▒█ ▒█░▒█
+▒█░▒█ ▀▀▀ ▀░░▀ ▀▀▀ ▀▀▀ ▀▀▀█ ░▀▀▀ ▀▀▀ 　 ▒█░░▒█ ░▀▀█▄
+
+*/
+
+
+/* = = = = */
+/* !!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!! */
+/* = = = = */
+
+@media screen and (max-width: 767px){
+    #realique_nav_collapse_1 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        padding-left: 28px;
+        width: 105%;
+        margin-top: 24px;
+        background: rgba(255, 255, 255, 0.91);
+        border-top: 2px solid #ce5928;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        z-index: 4;
+    }
+}
+
+
+
+
+/* = = = = */
+/* -------- Navbar -------- */
+/* = = = = */
+
+@media screen and (max-width: 900px){
+    img.header_logo {width: 150px; top: 15px;}
+}
+
+@media screen and (max-width: 806px){
+    img.header_logo {top: 0; left: 31px;}
+    .realique_navlinx {top: 5px; float: none !important; clear: both !important;}
+}
+
+@media screen and (max-width: 767px){
+    .navbar-toggle {margin-top: 35px;}
+
+    img.header_logo {top: 12px; left: 0; width: 200px;}
+    .realique_navlinx {top: 0; float: none !important; clear: both !important;}
+
+    .navbar-default .navbar-nav > li > a:before {width: 1%; height: 7px; bottom: 5px; left: 2%;}
+}
+
+@media screen and (max-width: 660px){
+    .navbar-default .navbar-nav > li > a:before {width: 2%; height: 7px; bottom: 5px; left: 4%;}
+}
+
+
+
+/* = = = = */
+/* -------- Header -------- */
+/* = = = = */
+
+/* XL/XL */
+@media screen and (min-width: 1500px){
+    .realique_header {min-height: 740px;}
+}
+
+@media screen and (min-width: 1680px){
+    .realique_header {min-height: 850px;}
+}
+
+@media screen and (min-width: 1920px){
+    .realique_header {min-height: 920px;}
+}
+
+@media screen and (min-width: 2100px){
+    .realique_header {min-height: 1035px;}
+}
+
+@media screen and (min-width: 2400px){
+    .realique_header {min-height: 1205px;}
+}
+
+@media screen and (min-width: 2560px){
+    .realique_header {min-height: 1305px;}
+}
+
+@media screen and (min-width: 2860px){
+    .realique_header {min-height: 1455px;}
+}
+
+@media screen and (min-width: 3840px){
+    .realique_header {min-height: 2000px;}
+}
+
+
+
+
+/* M/S/XS */
+@media screen and (max-width: 1250px){
+    .realique_tagline {height: 165px;}
+}
+
+@media screen and (max-width: 1150px){
+    .realique_tagline {height: 215px;}
+    .realique_header {min-height: 800px; background-position: 0 0;}
+}
+
+@media screen and (max-width: 767px){
+    .realique_tagline {height: 195px;}
+}
+
+@media screen and (max-width: 390px){
+    .realique_tagline {height: 175px;}
+}
+
+
+
+/* = = = = */
+/* -------- Unternehmen -------- */
+/* = = = = */
+
+@media screen and (max-width: 767px){
+    .unternehmen_image_holder {padding-top: 30px;}
+    .unternemhmen_circle {margin: 0 auto;}
+
+}
+
+
+
+
+
+/* = = = = */
+/* -------- Projekte -------- */
+/* = = = = */
+
+@media screen and (max-width: 1199px){
+    .carousel-control {width: 11%; font-size: 26px;}
+    a.right.carousel-control > .chevron_control {right: 32px;}
+}
+
+@media screen and (max-width: 800px){
+    .carousel-control {width: 15%; font-size: 26px;}
+    a.right.carousel-control > .chevron_control {right: 32px;}
+}
+
+@media screen and (max-width: 750px){
+    .carousel-control {width: 15%; font-size: 28px;}
+    a.right.carousel-control > .chevron_control {right: 12px;}
+    a.left.carousel-control > .chevron_control {left: 8px;}
+
+    .main_thumb {height: 340px;}
+    .carousel-inner {height: 340px;}
+    .hauptinfo_holder {min-height: 150px; height: auto;}
+}
+
+@media screen and (max-width: 630px){
+    .main_thumb {height: 270px;}
+    .carousel-inner {height: 270px;}
+}
+
+@media screen and (max-width: 603px){
+    .items_boxes_holder {margin-bottom: 14px;}
+    .items_box {float: none;}
+    .textual_data_holder {height: initial;}
+}
+
+@media screen and (max-width: 524px){
+    .main_thumb {height: 230px;}
+    .carousel-inner {height: 230px;}
+}
+
+@media screen and (max-width: 414px){
+    .main_thumb {height: 190px;}
+    .carousel-inner {height: 190px;}
+    .carousel-control {font-size: 22px;}
+}
+
+
+
+
+
+
+/* = = = = */
+/* -------- Referenzen -------- */
+/* = = = = */
+
+@media screen and (max-width: 1199px){
+    /*.all_references_cta_holder {margin-top: 103%;}*/
+    .ref_box_outer {margin-bottom: 32px;}
+
+    button.all_references_btn {width: 30%;}
+}
+
+@media screen and (max-width: 570px) {
+    .ref_box_outer {width: 100%;}
+}
+
+@media screen and (max-width: 535px){
+    button.all_references_btn {width: 45%;}
+}
+
+@media screen and (max-width: 400px){
+    .all_references_cta_holder {margin-top: 106%;}
+    button.all_references_btn {width: 50%;}
+}
+
+@media screen and (max-width: 360px){
+    button.all_references_btn {width: 60%;}
+}
+
+
+
+
+
+/* = = = = */
+/* -------- Kontakt -------- */
+/* = = = = */
+
+@media screen and (max-width: 991px){
+    button.realique_submit_btn {width: 50%;}
+}
+
+@media screen and (max-width: 767px){
+    button.realique_submit_btn {display: block; margin: 0 auto; text-align: center; top: 33px; position: relative; width: 40%; z-index: 222;}
+}
+
+@media screen and (max-width: 505px){
+    button.realique_submit_btn {width: 50%;}
+}
+
+@media screen and (max-width: 365px){
+    button.realique_submit_btn {width: 65%;}
+}
+
+
+
+
+
+/* = = = = */
+/* -------- Footer -------- */
+/* = = = = */
+
+@media screen and (max-width: 767px){
+    img.logo_footer {width: 65%;}
+}
+
+@media screen and (max-width: 626px){
+    footer.realique_footer {min-height: 450px;}
+    img.logo_footer {width: 45%;}
+    .footer_logo_and_data_holder {width: 100%; margin-bottom: 24px;}
+}
+
+@media screen and (max-width: 555px){
+    .bottonmost_stripe {min-height: 80px; height: auto;}
+    .small_footernotes_holder {float: none; clear: both; text-align: center;}
+    .social_links_holder {float: none !important; clear: both; width: 55%; padding-top: 11px; margin: auto;}
+    ul.socialz {float: none; clear: both; text-align: center;}
+}
+
+@media screen and (max-width: 444px){
+    .footer_linxx_holder {width: 50%;}
+    .footer_partner_login_holder {float: none !important; margin-bottom: 111px;}
+    a.footer_partner_login {float: none !important;}
+}
+
+@media screen and (max-width: 430px){
+    .social_links_holder {width: 70%;}
+}
+
+@media screen and (max-width: 360px){
+    .small_footernotes_holder small {font-size: 0.7rem;}
+    .social_links_holder {width: 82%;}
+}
+
+@media screen and (max-width: 330px){
+    .social_links_holder {width: 89%;}
+}
+
+
+
+
+
+/* = = = = */
+/* -------- Modal Partner Login -------- */
+/* = = = = */
+
+@media screen and (max-width: 767px){
+    button.close {left: -4px; top: 4px;}
+    .close {color: #e06218;}
+    .close:hover, .close:focus {
+        color: #e06218;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 499px){
+    button.realique_login_btn {width: 60%;}
+}
+
+@media screen and (max-width: 375px){
+    button.realique_login_btn {width: 70%;}
+}
+
+
+
+
+
+/*
+
+▀█▀ █▀▀▄ █▀▀▄ █▀▀ █▀▀█ 　 ▒█▀▀█ █▀▀█ █▀▀▀ █▀▀ █▀▀
+▒█░ █░░█ █░░█ █▀▀ █▄▄▀ 　 ▒█▄▄█ █▄▄█ █░▀█ █▀▀ ▀▀█
+▄█▄ ▀░░▀ ▀░░▀ ▀▀▀ ▀░▀▀ 　 ▒█░░░ ▀░░▀ ▀▀▀▀ ▀▀▀ ▀▀▀
+
+*/
+
+
+/* = = = = */
+/* -------- Referenzen (INNER) -------- */
+/* = = = = */
+
+/* XL/XL */
+@media screen and (min-width: 1500px){
+    .realique_header_inner {background-position: 0 -400px;}
+}
+
+@media screen and (min-width: 1680px){
+    .realique_header_inner {background-position: 0 -450px;}
+}
+
+@media screen and (min-width: 1920px){
+    .realique_header_inner {background-position: 0 -480px;}
+}
+
+@media screen and (min-width: 2100px){
+    .realique_header_inner {background-position: 0 -580px;}
+}
+
+@media screen and (min-width: 2400px){
+    .realique_header_inner {background-position: 0 -820px;}
+}
+
+/*@media screen and (min-width: 2560px){*/
+    /*.realique_header {min-height: 1305px;}*/
+/*}*/
+
+/*@media screen and (min-width: 2860px){*/
+    /*.realique_header {min-height: 1455px;}*/
+/*}*/
+
+/*@media screen and (min-width: 3840px){*/
+    /*.realique_header {min-height: 2000px;}*/
+/*}*/
+
+
+
+
+@media screen and (max-width: 782px){
+    .realique_header_inner {background-position: 0 -100px;}
+}
+
+@media screen and (max-width: 572px){
+    .realique_header_inner {background-position: 0 0;}
+}
+
+@media screen and (max-width: 414px){
+    .realique_inner_tagline_holder h2 {font-size: 3rem;}
+}
+
+
+
+
+
+/* = = = = */
+/* -------- Impressum (INNER) -------- */
+/* = = = = */
+
+@media screen and (max-width: 767px){
+    .realique_inner_tagline_holder h2 {padding-left: 20px;}
+    .impressum_area_inner {padding-left: 20px; padding-right: 20px;}
+}
+
+@media screen and (max-width: 444px){
+    .impressum_header_inner {background-position: 0 0;}
+}
+
+
+
+
+
