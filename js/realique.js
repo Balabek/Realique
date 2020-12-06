@@ -11,6 +11,7 @@ $(document).ready(function(){
         }, 800);
 
         $('.collapse').removeClass('in');
+        $('.navbar-toggle').removeClass('active');
 
     });
 
@@ -21,9 +22,21 @@ $(document).ready(function(){
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
+        touchMove: false,
+        draggable: false,
         fade: true,
-        asNavFor: '.slider-mini'
+        asNavFor: '.slider-mini',
+        responsive: [
+            {
+                breakpoint: 780,
+                settings: {
+                    touchMove: true,
+                    draggable: true
+                }
+            }
+        ]
     });
+
     $('.slider-mini').slick({
         slidesToShow: 6,
         slidesToScroll: 1,

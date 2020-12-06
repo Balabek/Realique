@@ -55,6 +55,11 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
     background-color: #e56c00;
 }
 
+
+
+
+
+
 .navbar-toggle .icon-bar:nth-of-type(2) {top: 1px;}
 .navbar-toggle .icon-bar:nth-of-type(3) {top: 2px;}
 .navbar-toggle .icon-bar:nth-of-type(4) {top: 3px;}
@@ -421,7 +426,8 @@ p.slide_hauptinfo {
     width: inherit;
     height: inherit;
     border-radius: 5px;
-    background-color: rgba(229,108,0,.7);
+    border: 2px solid #e56c00;
+    background-color: rgba(229,108,0,.4);
 }
 
 
@@ -727,14 +733,14 @@ h4.nils_greeting {
 h5.nils_name {
     font-family: "Averta-Bold", sans-serif;
     font-size: 1.1rem;
-    color: #665847;
+    color: #000000;
     text-align: center;
 }
 
 h5.nils_position {
-    font-family: "Averta-Light", sans-serif;
+    font-family: "Averta-Semibold", sans-serif;
     font-size: 1rem;
-    color: #665847;
+    color: #000000;
     text-align: center;
 }
 
@@ -910,8 +916,8 @@ ul.socialz li a:hover {
 
 .modal_header_holder h3 {
     display: inline-block;
-    font-family: "Averta-Bold", sans-serif;
-    font-size: 2.1rem;
+    font-family: "Averta-Semibold", sans-serif;
+    font-size: 1.5rem;
     color: #e56c00;
     text-align: center;
 }
@@ -1016,7 +1022,7 @@ button.close {
     font-family: "Averta-Bold", sans-serif;
     font-size: 4.4rem;
     text-align: left;
-    color: #ffffff;
+    color: #e56c00;
     /*color: #e06218;*/
 
     text-shadow: -5px -2px 160px rgba(255, 255, 255, 1);
@@ -1087,7 +1093,7 @@ p.impressum_paragraph {
 
 p.impressum_paragraph_2 {
     font-size: 1rem;
-    color: #665847;
+    color: #000000;
     text-align: left;
     margin-bottom: 20px;
 }
@@ -1098,7 +1104,7 @@ p.impressum_paragraph_2 {
     width: 88px;
     height: 88px;
     border-radius: 100%;
-    background-color: #66512c;
+    background-color: #000000;
     background: url('../img/Nils.jpg') center center no-repeat;
     background-size: cover;
 }
